@@ -1,0 +1,69 @@
+.dev-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dev-page .samples-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.dev-page .samples-intro {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+/* sample-block */
+.dev-page .sample-block {
+  margin-bottom: 50px;
+  border-top: 1px solid #ddd;
+}
+
+.dev-page code {
+  font-family: monospace;
+  font-size: large;
+  font-weight: 500;
+  background-color: #4d4d4d;
+  padding: 0 3px;
+  border-radius: 2px;
+}
+
+.dev-page .sample-title {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.dev-page .sample-description {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.dev-page .sample-code {
+  background-color: #212124;
+  border: 1px solid #212124;
+  color: #ffffff;
+  padding: 0 20px;
+  border-radius: 6px;
+  font-family: monospace;
+  font-size: medium;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  margin: auto;
+  margin-bottom: 15px;
+  width: 800px;
+}
+
+.dev-page .sample-output {
+  padding: 10px 20px;
+  background-color: #212124;
+  border: 1px solid #212124;
+  color: #ffffff;
+  border-radius: 6px;
+  width: 800px;
+  margin: auto;
+}

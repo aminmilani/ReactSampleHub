@@ -1,0 +1,75 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000000;
+  padding: 20px;
+  color: #ffffff;
+}
+
+/* Card styling */
+.contact-card {
+  background-color: #161618;
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Form elements */
+.contact-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-card label {
+  margin-bottom: 15px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-card input,
+.contact-card textarea {
+    background-color: #696969;
+    
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #212124;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.contact-card input::placeholder,
+.contact-card textarea::placeholder {
+    color: #ffffff;
+}
+
+.contact-card textarea {
+  resize: vertical;
+}
+
+/* Button styling */
+.contact-card button {
+  padding: 12px;
+  background-color: #212124;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.contact-card button:hover {
+  background-color: #818181;
+}
+
+/* Success message */
+.success-message {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
