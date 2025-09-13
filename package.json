@@ -1,5 +1,6 @@
 {
   "name": "reactsamplehub",
+  "homepage": "https://aminmilani.github.io/ReactSampleHub1/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
