@@ -23,7 +23,7 @@ export default function Layout() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <div className="navbar-logo">                        
-                        <Link to="/">React Sample Hub</Link>
+                        <Link to="/ReactSampleHub/">React Sample Hub</Link>
                     </div>
 
                     <div className="menu">

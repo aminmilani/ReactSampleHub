@@ -4,13 +4,13 @@ export default function Sidebar() {
   const [active, setActive] = useState("#");
 
   const links = [
-    { id: "#UseStateCounter", lable: "useState Counter" },
-    { id: "#arrayUpdate", lable: "Array Update" },
-    { id: "#ControlledFormInput", lable: "Controlled Form Input" },
-    { id: "#ConditionalRendering", lable: "ConditionalRendering" },
-    { id: "#ListRenderingExample", lable: "ListRenderingExample" },
-    { id: "#UseEffectTimer", lable: "UseEffectTimer" },
-    { id: "#PointerPosition", lable: "Pointer Position Example"}
+    { id: "#UseStateCounter", label: "useState Counter" },
+    { id: "#arrayUpdate", label: "Array Update" },
+    { id: "#ControlledFormInput", label: "Controlled Form Input" },
+    { id: "#ConditionalRendering", label: "ConditionalRendering" },
+    { id: "#ListRenderingExample", label: "ListRenderingExample" },
+    { id: "#UseEffectTimer", label: "UseEffectTimer" },
+    { id: "#PointerPosition", label: "Pointer Position Example"}
   ];
 
   return (
@@ -23,7 +23,7 @@ export default function Sidebar() {
               className={active === link.id ? "active" : ""}
               onClick={() => setActive(link.id)}
             >
-              {link.lable}
+              {link.label}
             </a>
           </li>
         ))}
