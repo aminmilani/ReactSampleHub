@@ -27,9 +27,9 @@ export default function Layout() {
                     </div>
 
                     <div className="menu">
-                        <Link to="/" style={getTabStyle("/")}>Home</Link>
-                        <Link to="/Samples" style={getTabStyle("/Samples")}>Samples</Link>
-                        <Link to="/Contact" style={getTabStyle("/Contact")}>Contact</Link>
+                        <Link to="/ReactSampleHub1/" style={getTabStyle("/ReactSampleHub1/")}>Home</Link>
+                        <Link to="/ReactSampleHub1/Samples" style={getTabStyle("/ReactSampleHub1/Samples")}>Samples</Link>
+                        <Link to="/ReactSampleHub1/Contact" style={getTabStyle("/ReactSampleHub1/Contact")}>Contact</Link>
                     </div>
                 </div>
             </nav>

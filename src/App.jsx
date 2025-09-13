@@ -18,11 +18,11 @@ export default function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Layout />}>
+          <Route path='/ReactSampleHub1/' element={<Layout />}>
           <Route index element={<Home />}></Route>
-          <Route path="/Samples" element={<Samples />}></Route>
-          <Route path="/Contact" element={<Contact />}></Route>
-          <Route path="/Dev" element={<Dev />}></Route>
+          <Route path="/ReactSampleHub1/Samples" element={<Samples />}></Route>
+          <Route path="/ReactSampleHub1/Contact" element={<Contact />}></Route>
+          <Route path="/ReactSampleHub1/Dev" element={<Dev />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
